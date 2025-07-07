@@ -1,9 +1,6 @@
 ---
 title: Contact
-author: Tao He
-date: 2022-02-05
-category: Jekyll
 layout: post
 ---
 
-This is an contact page.
+문의 사항은 이메일로 연락해 주세요: unknown.bimil@gmail.com
