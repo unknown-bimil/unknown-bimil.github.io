@@ -4,9 +4,12 @@
 /* Neo둥근모 웹폰트 */
 @font-face {
     font-family: 'NeoDunggeunmo';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2107@1.1/NeoDunggeunmo.woff') format('woff');
+    src: url('{{ '/assets/gitbook/fonts/fontawesome/neodgm_code.woff2' | relative_url }}') format('woff2'),
+         url('{{ '/assets/gitbook/fonts/fontawesome/neodgm_code.woff' | relative_url }}') format('woff'),
+         url('{{ '/assets/gitbook/fonts/fontawesome/neodgm_code.ttf' | relative_url }}') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 :root {
