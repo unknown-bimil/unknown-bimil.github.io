@@ -3,7 +3,7 @@ title: 김치 담그는 표준 레시피
 author: Unknown Bimil
 layout: post
 date: 2026-03-28
-category: recipe
+categories: [recipe]
 status: published
 tags: [kimchi, fermentation, recipe]
 requester: "온세옥 대표님"
