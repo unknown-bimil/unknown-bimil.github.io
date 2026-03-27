@@ -2,7 +2,8 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     // Configuration
     var MAX_SIZE       = 4,
         MIN_SIZE       = 0,
-        BUTTON_ID;
+        BUTTON_ID,
+        ICON_CLASS    = 'fa fa-font'; // ensure FontAwesome icons render correctly
 
     // Current fontsettings state
     var fontState;
@@ -188,7 +189,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
 
         // Create buttons in toolbar
         BUTTON_ID = gitbook.toolbar.createButton({
-            icon: 'fa fa-font',
+            icon: ICON_CLASS,
             label: 'Font Settings',
             className: 'font-settings',
             dropdown: [
