@@ -1,7 +1,9 @@
 ---
-title: 김치 담그는 표준 레시피 초안
+title: 김치 담그는 표준 레시피
+layout: post
 date: 2026-03-28
-status: draft
+category: recipe
+status: published
 tags: [kimchi, fermentation, recipe]
 requester: "온세옥 대표님"
 ---
